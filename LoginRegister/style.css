@@ -1,0 +1,125 @@
+*
+{
+    margin:0;
+    padding:0;
+    font:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #262626 url(https://images.wallpaperscraft.com/image/single/beach_tropics_sea_sand_palm_trees_sunset_84729_1280x720.jpg);
+    background-size: cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form{
+    background-color: #3b3232;
+    padding: 46px;
+    display: inline flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(74, 23, 23, 0.8);
+    width: 210px;
+    
+}
+
+form label{
+    font-size: 30px;
+    color: white;
+   
+}
+
+form input{
+    border: none;
+    background: none;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    height: 20px;
+    border-radius: 40px;
+}
+
+form input[type="text"], form input[type="password"] , form input[type="email"]{
+    border:solid 2px #faf7f7
+
+}
+
+ form p{ 
+    background-color:#443939;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    margin: 5px -10px;
+    border-radius: 30px;
+    border: 2px solid rgb(232, 232, 232);
+    width: 100%;
+    float: none;
+
+    
+ /* Avatar image resized. */   
+}
+.avatar img{
+    max-width: 200px;
+    height: auto;
+
+
+}
+
+form button{
+    background-color: rgb(201, 23, 23);
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    margin: 0px 0px;
+    border-radius: 30px;
+    border: 2px solid white;
+    width: 100%;
+    float: none;
+}
+
+
+
+form button:hover{
+    background-color: gold;
+    transition-duration: 0.6s;   /* used to set the speed. */
+}
+
+.alii{
+    background-color:gold;
+    font-size: 20px;
+    color:black ;
+    padding: 10px;
+    border: 5px solid #262626; 
+    border-radius: 10px;
+    
+}
+
+.alpp{
+    font-size: 25px;
+    align-items: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+a {
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+a:hover{
+    background-color: blue;
+    transition-duration: 0.6s;
+}
+
